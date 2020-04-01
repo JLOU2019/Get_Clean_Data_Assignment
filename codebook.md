@@ -17,12 +17,12 @@ The first two columns of the data set comprises:
 
 - 'Subject', which is numbered from 1 to 30 in order.
 - 'Activity', which includes:
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+    1. WALKING
+    2. WALKING_UPSTAIRS
+    3. WALKING_DOWNSTAIRS
+    4. SITTING
+    5. STANDING
+    6. LAYING
 
 The other 66 variables are listed below.
 "tBodyAcc-mean()-X"
