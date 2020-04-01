@@ -7,9 +7,7 @@
 
 The tidy data set that was created in step of the R script (included in run_analysis.R) consists of 68 variables.  The first two variables, 'subject' and 'activity', identify the human subject and its activity (e.g. walking, walking upstairs, sitting, standing).
 
-The other 66 variables show the averages for some selected features, which contain information on means and standard deviations from the original data set (that is, Human Activity Recognition Using Smartphones Dataset Version 1.0).  
-
-For example, variable 3 of the 'tidydata' indicates the average of means for body acceleration on X axis.
+The other 66 variables show the averages for some selected features, which contain information on means and standard deviations from the original data set (that is, Human Activity Recognition Using Smartphones Dataset Version 1.0).  For example, variable 3 of the 'tidydata' indicates the average of means for body acceleration on X axis.
 
 ## Description of the data set
 
