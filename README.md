@@ -1,5 +1,14 @@
-# Get_Clean_Data_Assignment
-This repo was created to finish the assignment for week 4 of Getting and Cleaning Data Coursera course.
+# Purpose of the README.md 
+As part of the requirement of this assignment, the README.md in this repository describes how the script in the file 'run.analysis.R' works.  
+
+The run.analyais.R file is saved in the main directory of this repository.
+
+The script was written and structued as per the 5-step process outlined in the purpose of this assignment, including;
+1-merges the training
+2-
+3-
+4-
+5-
 
 First, download and unzip the data file into your R working directory.
 Second, download the R source code into your R working directory.
