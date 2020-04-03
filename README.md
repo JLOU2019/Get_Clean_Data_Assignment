@@ -4,11 +4,11 @@ As part of the requirement of this assignment, the README.md in this repository 
 The run.analyais.R file is saved in the main directory of this repository.
 
 The script was written and structued as per the 5-step process outlined in the purpose of this assignment, including;
-* merges the training
-* extracts
-* uses
-* appropriately
-* from the data set in the previous step
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement.
+* Uses descriptive activity names to name the activities in the data set.
+* Appropriately labels the data set with descriptive variable names.
+* From the data set in the previous step, creates a second, independent tidy data set with the average of each variable for each activity.
 
 First, download and unzip the data file into your R working directory.
 Second, download the R source code into your R working directory.
