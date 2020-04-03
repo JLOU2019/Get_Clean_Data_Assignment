@@ -4,11 +4,11 @@ As part of the requirement of this assignment, the README.md in this repository 
 The run.analyais.R file is saved in the main directory of this repository.
 
 The script was written and structued as per the 5-step process outlined in the purpose of this assignment, including;
-1-merges the training
-2-
-3-
-4-
-5-
+* merges the training
+* extracts
+* uses
+* appropriately
+* from the data set in the previous step
 
 First, download and unzip the data file into your R working directory.
 Second, download the R source code into your R working directory.
