@@ -10,19 +10,24 @@ The script was written and structued as per the 5-step process outlined in the p
 * Appropriately labels the data set with descriptive variable names.
 * From the data set in the previous step, creates a second, independent tidy data set with the average of each variable for each activity.
 
+
+## Merges the training and the test sets to create one data set.
 First, download and unzip the data file into your R working directory.
 Second, download the R source code into your R working directory.
 Finally, execute R source code to generate tidy data file.
-## Data description
+
 The variables in the data X are sensor signals measured with waist-mounted smartphone from 30 subjects. The variable in the data Y indicates activity type the subjects performed during recording.
 
-## Code explanation
+## Extracts only the measurements on the mean and standard deviation for each measurement
 The code combined training dataset and test dataset, and extracted partial variables to create another dataset with the averages of each variable for each activity.
 
-## New dataset
+## Appropriately labels the data set with descriptive variable names.
 The new generated dataset contained variables that were calculated based on the mean and standard deviation. Each row of the dataset is an average of each activity type for all subjects.
 
-## The code was written based on the instruction of this assignment
+## From the data set in the previous step, creates a second, independent tidy data set with the average of each variable for each activity
+
+(refer to the tidydata.txt)
+
 Read training and test dataset, variable names and subject index into R environment. 
 
 1. Merges the training and the test sets to create one data set. Use command rbind to combine training and test set
