@@ -13,7 +13,9 @@ The script was written and structued as per the 5-step process outlined in the p
 
 ## Merges the training and the test sets to create one data set.
 The first step is to set the working directory, and load the relevant packages from the R library: plyr and data.table.
+
 Second, load the train data set and the test data set respectively.   
+
 Third, merged both the train and test data sets into one data set for further analysis by using the 'rbind' script and other R scripts to understand the dimension of the one merged large data set. 
 
 ## Extracts only the measurements on the mean and standard deviation for each measurement.
