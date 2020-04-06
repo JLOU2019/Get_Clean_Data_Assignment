@@ -22,19 +22,11 @@ Third, merged both the train and test data sets into one data set for further an
 This step aims to find the specific features of measuresments about mean and standard deviation.  The scripts helped to extract these measurements and other measuresment that indicated the 'subject' and 'activity'.  A new data table was then created with the target variables.   
 
 ## Use descriptive activity names to name the activities in the data set.
-
+Replace the variable about activity, which contains integers from 1 to 6, with a factor based on levels and labels contained in the 'activity_labels.txt' file.
 
 ## Appropriately labels the data set with descriptive variable names.
-The new generated dataset contained variables that were calculated based on the mean and standard deviation. Each row of the dataset is an average of each activity type for all subjects.
+This step is about creating a new tidy dataset with the appropriate labels for the variable names.  This new dataset contained variables that were calculated based on the mean and standard deviation. 
 
 ## From the data set in the previous step, creates a second, independent tidy data set with the average of each variable for each activity
+The new data set created in step 4 was grouped by 'subject' and 'activity'.  Each variable was summarised to find the average for the grouped values.  Then descriptive names were added to the variables of the new tidy data table.  Finally, wrote the data in a text file in the working directory by using the 'write.table' script.
 
-(refer to the tidydata.txt)
-
-Read training and test dataset, variable names and subject index into R environment. 
-
-1. Merges the training and the test sets to create one data set. Use command rbind to combine training and test set
-2. Extracts only the measurements on the mean and standard deviation for each measurement. Use grep command to get column indexes for variable name contains "mean()" or "std()"
-3. Uses descriptive activity names to name the activities in the data set Convert activity labels to characters and add a new column as factor
-4. Appropriately labels the data set with descriptive variable names. Give the selected descriptive names to variable columns
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Use pipeline command to create a new tidy dataset with command group_by and summarize_each in dplyr package
