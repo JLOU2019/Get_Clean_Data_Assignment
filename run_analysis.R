@@ -21,7 +21,7 @@ xDataSet <- rbind(xTrain, xTest)
 yDataSet <- rbind(yTrain, yTest)
 subjectDataSet <- rbind(subjectTrain, subjectTest)
 dim(xDataSet)
-dim(yDataset)
+dim(yDataSet)
 dim(subjectDataSet)
 
 ##2. Extracts only the measurements on the mean and standard deviation for each measurement.
